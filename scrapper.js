@@ -5,8 +5,6 @@ require("./lib/env");
 
 const main = async () => {
   const { SHEET_ID, API_KEY } = process.env;
-  console.log(SHEET_ID, API_KEY);
-  return;
   const SCRAPED_LIST_SHEET = {
     index: 1,
     sourceFileName: "scrapedListing.json",
