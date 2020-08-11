@@ -1,0 +1,17 @@
+{
+  "name": "scrap-building",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scrap-data": "node scrapper.js",
+    "test": "node index.js"
+  },
+  "keywords": [],
+  "author": "tostyle",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "google-spreadsheet": "^3.0.11"
+  }
+}
